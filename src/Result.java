@@ -5,9 +5,9 @@ public class Result {
         this.num = num;
     }
 
-    public int getNum(){
+    public int getNum() {
         int c = num + 7;
-        if (c % 2 == 0){
+        if (c % 10 == 0 ) {
             System.out.println("Digit ends on 3");
         } else {
             System.out.println("Digit ends ain't on 3");
